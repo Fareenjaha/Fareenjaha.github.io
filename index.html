@@ -1,0 +1,154 @@
+
+<!-- saved from url=(0047)file:///C:/Users/Family/Desktop/JAHA/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>!DOCTYPE html&gt;
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SYED FAREEN JAHA CURRICULUM VITAE</title>
+    <style>
+        /* Style for collapsible sections */
+        .collapsible {
+            background-color: rgb(32, 137, 137);
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            position: relative;
+        }
+
+        .collapsible::after {
+            content: '\25B6'; /* Unicode character for right-pointing arrow */
+            position: absolute;
+            right: 10px;
+            transition: transform 0.3s;
+        }
+
+        .active::after {
+            transform: rotate(90deg);
+        }
+
+        .content {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            background-color: #f1f1f1;
+        }
+
+        /* Style for profile image */
+        #profile-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        #profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+    </style>
+
+
+
+<h1>CURRICULUM VITAE
+</h1>
+
+<img src="photo_2024-05-06_21-26-21.jpg" alt="Profile Image" id="profile-image">
+<h2>SYED FAREEN JAHA</h2>
+
+<button class="collapsible">CAREER OBJECTIVE</button>
+<div class="content">
+  <p>Seeking to enhance myself from student level to professional level and prove myself worthy in the uplift of the organization &amp; my skills.</p>
+</div>
+
+<button class="collapsible">EDUCATION</button>
+<div class="content">
+  <p></p><div>
+    <h2>Masters [Pursuing]</h2>
+    <p>SRM University,AP</p>
+    <p>Stream: Molecular Biology and Biotechnology.</p>
+</div>
+
+<div>
+    <h2>Bachelor of Science [2020 - 2023]</h2>
+    <p>Hindu College of Management, Guntur.</p>
+    <p>Stream: Botany, Zoology, Horticulture.</p>
+</div>
+
+<div>
+    <h2>Intermediate [2018-2020]</h2>
+    <p>NRI Junior College, Tenali.</p>
+    <p>Stream: BiPC.</p>
+</div>
+
+<div>
+    <h2>Board of Secondary Education</h2>
+    <p>Nehru Niketan English Medium High School.</p>
+</div>
+<p></p>
+</div>
+
+<button class="collapsible">TECHNICAL SKILLS</button>
+<div class="content">
+  <p>Homology Modeling</p>
+  <p>Molecular Docking</p>
+  <p>MS Office</p>
+  <p>Linux</p>
+  <p>Basics of Python</p>
+  <p>R Programming</p>
+  <p>PCR</p>
+  <p>Protein Extraction</p>
+  <p>UV Spectrophotometry</p>
+</div>
+
+<button class="collapsible">INTERNSHIP</button>
+<div class="content">
+  <p>“Microbial Culture;Plant TechniquesPro-tray Seedling.” 
+</p>
+</div>
+
+<button class="collapsible">CERTIFICATIONS</button>
+<div class="content">
+  <p>Received certification for 'Plant Techniques and Microbial Culture'.</p>
+</div>
+
+<button class="collapsible">HOBBIES</button>
+<div class="content">
+  <p>Gardening</p>
+  <p>Travelling</p>
+  <p>Music</p>
+</div>
+
+<button class="collapsible">CONTACT INFORMATION</button>
+<div class="content">
+  <p>Address: H.NO 8-28-25/1, Balajiraopet, Tenali</p>
+  <p>G-mail address:  fareenjaha337@gmail.com</p>
+</div>
+
+<script>
+    // JavaScript to toggle collapsible sections
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            } 
+        });
+    }
+</script>
+
+
+</body></html>
